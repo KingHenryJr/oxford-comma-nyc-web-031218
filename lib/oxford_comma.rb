@@ -4,8 +4,8 @@ def oxford_comma(array)
     return "#{array[0]}"
   elsif array.length === 2 
     return "#{array[0]} and #{array[1]}"
-  elsif array.length === 3
-    return "#{array[0]}, #{array[1]}, and #{array[3]}"
+  elsif array.length >= 3
+    return 
   
   
 end
